@@ -11,35 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. Student in Chemical Engineering, National Taiwan University, Sep 2023 - Present
+* M.S. in Chemical Engineering, National Taiwan University, Sep 2021 - Aug 2023
+* B.S. in Chemical and Materials Engineering, Chang Gung University, Sep 2017 - Jun 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Feb 2024 - Present: Project Research Assistant
+  * National Center for High-Performance Computing (NCHC), HPC & Cloud Technologies Division
+  * Developed high-performance computing workflows for large-scale scientific simulation, including CUDA GPU acceleration
+  * Extended and applied physics-informed machine learning methods to scientific computing problems
+  * Supported reproducible model development and deployment for computational research projects
+* Sep 2021 - Present: Graduate Research Assistant
+  * Complex Fluid Theory Lab
+  * Developed multivariate time-series and spatiotemporal deep learning models to predict phase-field morphology evolution
+  * Built a GPU-enabled 3D solver for ternary non-solvent-induced phase separation (NIPS)
+  * Integrated phase-field simulation with physics-informed neural networks (PINNs) for forward and inverse modeling
+  * Research focus: polymer field-theoretic simulation and self-consistent field theory (SCFT)
+* Sep 2020 - Jun 2021: Research Assistant
+  * Process Engineering Lab
+  * Designed air separation unit (ASU) processes for ultra-high-purity nitrogen and oxygen production
+  * Developed hybrid membrane/ASU process models to evaluate industrial and experimental high-permeability membranes
+  * Applied simulated annealing (SA) for reaction-kinetic parameter regression
+  * Contributed to simulation and techno-economic analysis for hybrid membrane/cryogenic air-separation systems
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Python, Julia (scientific computing, deep learning workflows)
+  * C/C++ (numerical methods, HPC-oriented implementation)
+  * CUDA (GPU acceleration for large-scale simulation)
+  * MATLAB (modeling, optimization, algorithm prototyping)
+* Academic and Research Skills
+  * Phase-field modeling and simulation 
+  * Polymer field-theoretic simulation and self-consistent field theory (SCFT)
+  * Physics-informed neural networks (PINNs) for forward and inverse problems
+  * Multivariate time-series and spatiotemporal deep learning
+  * Process simulation and design for gas separation (ASU, hybrid membrane/cryogenic systems)
+  * Techno-economic analysis and model-based process evaluation
 
 Publications
 ======

@@ -30,32 +30,41 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "National Center for High-Performance Computing (NCHC)",
+      "position": "Project Research Assistant",
+      "startDate": "2024-02-19",
+      "endDate": "Present",
+      "summary": "HPC & Cloud Technologies Division, Hsinchu, Taiwan",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "National Taiwan University",
+      "area": "Chemical Engineering",
+      "studyType": "Ph.D. Student",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "National Taiwan University",
+      "area": "Chemical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2021-09-02",
+      "endDate": "2023-08-10",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Chang Gung University",
+      "area": "Chemical and Materials Engineering",
+      "studyType": "B.S.",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-30",
       "gpa": null,
       "courses": []
     }
@@ -66,32 +75,25 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Rigorous simulation and techno-economic evaluation on the hybrid membrane/cryogenic distillation processes for air separation",
+      "publisher": "Journal of the Taiwan Institute of Chemical Engineers",
+      "releaseDate": "2021-10-01",
+      "website": "https://doi.org/10.1016/j.jtice.2021.08.001",
+      "summary": "Process simulation and techno-economic analysis of hybrid membrane/cryogenic distillation for air separation."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Connecting Structural Characteristics and Material Properties in Phase-Separating Polymer Solutions: Phase-Field Modeling and Physics-Informed Neural Networks",
+      "publisher": "Polymers",
+      "releaseDate": "2023-12-14",
+      "website": "https://doi.org/10.3390/polym15244711",
+      "summary": "Phase-field modeling and physics-informed neural networks for connecting morphology and properties in phase-separating polymer solutions."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "L-MAU: A multivariate time-series network for predicting the Cahn-Hilliard microstructure evolutions via low-dimensional approaches",
+      "publisher": "Computer Physics Communications",
+      "releaseDate": "2024-08-01",
+      "website": "https://doi.org/10.1016/j.cpc.2024.109342",
+      "summary": "A multivariate time-series network approach for predicting Cahn-Hilliard microstructure evolution in low-dimensional latent space."
     }
   ],
   "presentations": [
