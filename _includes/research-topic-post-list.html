@@ -1,0 +1,9 @@
+{% assign topic_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
+
+{% if topic_posts and topic_posts.size > 0 %}
+  {% for post in topic_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No research posts in this topic yet.</p>
+{% endif %}

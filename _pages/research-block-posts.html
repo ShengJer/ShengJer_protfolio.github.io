@@ -1,0 +1,22 @@
+---
+layout: archive
+permalink: /research-block-posts/
+title: "Research Block Posts"
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Select a research sub-topic to view related posts.</p>
+
+{% for topic in site.data.research_topics %}
+  {% assign topic_posts = site.posts | where_exp: "post", "post.categories contains topic.category" %}
+  <h2 class="archive__subtitle">
+    {% if topic.icon %}
+      <i class="fa {{ topic.icon }}" aria-hidden="true"></i>
+    {% endif %}
+    <a href="{{ base_path }}/research-topics/{{ topic.slug }}/">{{ topic.title }}</a>
+  </h2>
+  <p>{{ topic.description }}</p>
+  <p><strong>{{ topic_posts.size }}</strong> post(s)</p>
+{% endfor %}

@@ -62,11 +62,22 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Honor & Award
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Honorable Mention in Student English Oral Presentation Contest, 2025 TWCIS
+* Honorable Mention in Student English Oral Presentation Contest, 2022 TwIChE
+* Excellent Presentation Award in the Symposium of Thermodynamics and Process System Engineering, 2021 NTU
+* Second Place Award in Undergraduate Student Process Design Contest, 2021 TwIChE
+* 2021: Undergraduate Academic Excellence Award, Chang Gung University
+
+
+
+Internship Experience
+======
+* Jun 2020 - Sep 2020: Intern
+  * Fuburg Company, Taiwan
+  * Experiment and improvement on superabsorbent polymer product
+  * Competitor analysis and data collection of company product
   
 Service and leadership
 ======

@@ -1,0 +1,17 @@
+- title: "Polymer Field Theory"
+  slug: "polymer-field-theory"
+  category: "polymer-field-theory"
+  icon: "fa-flask"
+  description: "Numerical methods, models, and applications in polymer field theory."
+
+- title: "High-Performance Computing for Scientific Computation"
+  slug: "high-performance-computing"
+  category: "high-performance-computing"
+  icon: "fa-server"
+  description: "Parallel computing workflows, optimization, and large-scale simulation."
+
+- title: "Physics-Informed Machine Learning and Deep Learning"
+  slug: "physics-informed-machine-learning-deep-learning"
+  category: "physics-informed-machine-learning-deep-learning"
+  icon: "fa-line-chart"
+  description: "Physics-aware ML and deep learning methods for scientific modeling and inference."
