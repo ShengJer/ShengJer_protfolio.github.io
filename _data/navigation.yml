@@ -14,8 +14,8 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Academic Project"
+    url: /academic-project/
         
   - title: "Research Block Posts"
     url: /research-block-posts/
@@ -26,5 +26,3 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/

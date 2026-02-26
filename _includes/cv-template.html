@@ -225,12 +225,12 @@
   </div>
   {% endif %}
   
-  {% if cv.portfolio.size > 0 %}
-  <!-- Portfolio -->
+  {% if cv.academic_project.size > 0 %}
+  <!-- Academic Project -->
   <div class="cv-section">
-    <h2>Portfolio</h2>
+    <h2>Academic Project</h2>
     <ul class="cv-list">
-      {% for item in cv.portfolio %}
+      {% for item in cv.academic_project %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ item.name }}</div>

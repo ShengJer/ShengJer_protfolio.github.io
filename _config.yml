@@ -229,7 +229,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  academic_project:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -275,10 +275,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _academic_project
   - scope:
       path: ""
-      type: portfolio
+      type: academic_project
     values:
       layout: single
       author_profile: true

@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. Student in Chemical Engineering, National Taiwan University, Sep 2023 - Present
+* Ph.D. candidate in Chemical Engineering, National Taiwan University, Sep 2023 - Present
 * M.S. in Chemical Engineering, National Taiwan University, Sep 2021 - Aug 2023
 * B.S. in Chemical and Materials Engineering, Chang Gung University, Sep 2017 - Jun 2021
 
@@ -68,9 +68,7 @@ Honor & Award
 * Honorable Mention in Student English Oral Presentation Contest, 2022 TwIChE
 * Excellent Presentation Award in the Symposium of Thermodynamics and Process System Engineering, 2021 NTU
 * Second Place Award in Undergraduate Student Process Design Contest, 2021 TwIChE
-* 2021: Undergraduate Academic Excellence Award, Chang Gung University
-
-
+* Undergraduate Academic Excellence Award, Chang Gung University, 2021 CGU
 
 Internship Experience
 ======
@@ -78,7 +76,8 @@ Internship Experience
   * Fuburg Company, Taiwan
   * Experiment and improvement on superabsorbent polymer product
   * Competitor analysis and data collection of company product
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Sep 2018 - Sep 2019: Vice Director
+  * Piano club in Chang Gung University 
