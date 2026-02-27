@@ -8,10 +8,66 @@ author_profile: true
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
+<p>Click a tag to filter this page. Use "All tags" to reset.</p>
+<p id="tag-filter-heading"></p>
+
+<p class="page__taxonomy">
+  <a id="clear-tag-filter" href="{{ base_path }}/tags/" class="page__taxonomy-item">All tags</a>
+  {% for tag in group_names %}
+    <a href="#{{ tag | slugify }}" class="page__taxonomy-item">{{ tag }}</a>
+  {% endfor %}
+</p>
+
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <section id="{{ tag | slugify }}" data-tag-slug="{{ tag | slugify }}" class="tag-archive-section">
+    <h2 class="archive__subtitle">{{ tag }}</h2>
+    <ul>
+      {% for post in posts %}
+        <li>
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+          <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 {% endfor %}
+
+<script>
+  (function () {
+    function normalizeHash(value) {
+      if (!value) return "";
+      return decodeURIComponent(value).replace(/^#/, "").trim().toLowerCase();
+    }
+
+    function applyTagFilter() {
+      var activeTag = normalizeHash(window.location.hash);
+      var sections = document.querySelectorAll(".tag-archive-section");
+      var heading = document.getElementById("tag-filter-heading");
+      var clearLink = document.getElementById("clear-tag-filter");
+      var hasVisibleSection = false;
+
+      sections.forEach(function (section) {
+        var matches = !activeTag || section.getAttribute("data-tag-slug") === activeTag;
+        section.style.display = matches ? "" : "none";
+        if (matches) hasVisibleSection = true;
+      });
+
+      if (activeTag && hasVisibleSection) {
+        if (heading) heading.textContent = "Showing posts for tag: " + activeTag;
+        if (clearLink) clearLink.style.fontWeight = "700";
+      } else if (activeTag && !hasVisibleSection) {
+        if (heading) heading.textContent = 'Tag "' + activeTag + '" not found. Showing all tags.';
+        sections.forEach(function (section) {
+          section.style.display = "";
+        });
+      } else {
+        if (heading) heading.textContent = "Showing all tags.";
+        if (clearLink) clearLink.style.fontWeight = "";
+      }
+    }
+
+    window.addEventListener("hashchange", applyTagFilter);
+    document.addEventListener("DOMContentLoaded", applyTagFilter);
+  })();
+</script>
