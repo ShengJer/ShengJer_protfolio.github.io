@@ -8,5 +8,3 @@ date: 2026-03-16
 location: "Denver, CO, USA (and online)"
 abstract_pdf: /files/abstracts/APS_Sheng_Jer_Chen_HY.pdf
 ---
-
-Conference session link: https://summit.aps.org/smt/2026/events/MAR-L67/2.

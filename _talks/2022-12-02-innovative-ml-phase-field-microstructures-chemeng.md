@@ -2,7 +2,7 @@
 title: "Innovative Machine Learning Approaches for Predicting the Dynamics of the Phase-Field Microstructures"
 collection: talks
 type: "Domestic conference paper"
-permalink: /talks/2022-11-01-innovative-ml-phase-field-microstructures-chemeng
+permalink: /talks/2022-12-02-innovative-ml-phase-field-microstructures-chemeng
 venue: "2022 Chemical Engineering Conference by Taiwan Institute of Chemical Engineers (TwIChE)"
 date: 2022-12-02
 location: "Taiwan"

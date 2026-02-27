@@ -2,7 +2,7 @@
 title: "Numerical Simulation for Nonsolvent-Induced Phase Separation by Ternary Phase-Field Theory"
 collection: talks
 type: "Domestic conference paper"
-permalink: /talks/2024-08-01-numerical-simulation-nips-ternary-phase-field
+permalink: /talks/2024-05-03-numerical-simulation-nips-ternary-phase-field
 venue: "2024 Symposium on Thermodynamics and Process Systems Engineering"
 date: 2024-05-03
 location: "Taiwan"

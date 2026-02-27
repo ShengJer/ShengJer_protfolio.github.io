@@ -2,7 +2,8 @@
 title: "Connecting Structural Characteristics and Material Properties in Phase-Separating Polymer Solutions: Phase-Field Modeling and Physics-Informed Neural Networks"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-12-14-connecting-structural-characteristics-material-properties
+topic: machine-learning
+permalink: /publications/2023-12-14-connecting-structural-characteristics-material-properties
 excerpt: 'Phase-field modeling and physics-informed neural networks for connecting morphology and properties in phase-separating polymer solutions.'
 date: 2023-12-14
 venue: 'Polymers'

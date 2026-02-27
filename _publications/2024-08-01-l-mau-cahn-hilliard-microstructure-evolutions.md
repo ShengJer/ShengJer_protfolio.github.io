@@ -2,7 +2,8 @@
 title: "L-MAU: A multivariate time-series network for predicting the Cahn-Hilliard microstructure evolutions via low-dimensional approaches"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-08-01-l-mau-cahn-hilliard-microstructure-evolutions
+topic: machine-learning
+permalink: /publications/2024-08-01-l-mau-cahn-hilliard-microstructure-evolutions
 excerpt: 'A multivariate time-series network approach for predicting Cahn-Hilliard microstructure evolution in low-dimensional latent space.'
 date: 2024-08-01
 venue: 'Computer Physics Communications'

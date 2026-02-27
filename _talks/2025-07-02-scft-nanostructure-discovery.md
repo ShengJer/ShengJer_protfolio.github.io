@@ -2,7 +2,7 @@
 title: "Self-Consistent Field Theory for Nanostructure Discovery"
 collection: talks
 type: "Domestic conference paper"
-permalink: /talks/2025-08-01-scft-nanostructure-discovery
+permalink: /talks/2025-07-02-scft-nanostructure-discovery
 venue: "2025 Annual Conference of the Taiwanese Colloid and Interface Society (2025 TWCIS) & International Symposium on Interface Science"
 date: 2025-07-02
 location: "Taiwan"

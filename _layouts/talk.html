@@ -35,7 +35,19 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.type or page.venue or page.location %}
+          <p>{{ page.type }}{% if page.venue %}, {{ page.venue }}{% endif %}{% if page.location %}, {{ page.location }}{% endif %}</p>
+        {% endif %}
+        {% if page.abstract_pdf %}
+          <p>
+            <a href="{{ base_path }}{{ page.abstract_pdf }}" target="_blank" rel="noopener">
+              <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Abstract PDF
+            </a>
+          </p>
+        {% endif %}
+        {% if page.excerpt %}
+          <p>{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% endif %}
 
         </header>
       {% endunless %}

@@ -14,12 +14,12 @@ tags:
 
 ## Summary
 
-This note summarizes a canonical-ensemble self-consistent field theory (SCFT) derivation for an incompressible AB diblock copolymer melt.
+This note summarizes a canonical-ensemble self-consistent field theory (SCFT) derivation for an linear incompressible AB diblock copolymer melt.
 
 The derivation starts from a microscopic polymer model with:
-- Gaussian-chain conformational energy
+- Gaussian-chain model
 - Flory-Huggins A-B contact interaction
-- A local incompressibility constraint
+- A incompressibility constraint
 
 It then introduces collective density fields and auxiliary conjugate fields through functional delta identities and Fourier representations. This converts the many-chain partition function into a field-theoretic form and defines an effective Hamiltonian.
 
